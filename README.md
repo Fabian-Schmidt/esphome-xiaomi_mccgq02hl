@@ -10,6 +10,7 @@ Adopted from <https://github.com/esphome/esphome/pull/4605>. Changes:
 ```yaml
 external_components:
   - source: github://Fabian-Schmidt/esphome-xiaomi_mccgq02hl
+    components: [ xiaomi_ble, xiaomi_mccgq02hl ]
 
 xiaomi_mccgq02hl:
   - id: window_one
