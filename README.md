@@ -12,6 +12,8 @@ external_components:
   - source: github://Fabian-Schmidt/esphome-xiaomi_mccgq02hl
     components: [ xiaomi_ble, xiaomi_mccgq02hl ]
 
+esp32_ble_tracker:
+
 xiaomi_mccgq02hl:
   - id: window_one
     mac_address: "E4:AA:EC:4E:5E:E4"
