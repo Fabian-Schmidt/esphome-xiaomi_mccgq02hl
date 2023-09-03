@@ -33,3 +33,15 @@ sensor:
     battery_level:
       name: "Mi Window Sensor Battery Level"
 ```
+
+## Tweaking Bluetooth
+
+Using the following config I was able to receive more often data from the sensor:
+
+```yaml
+esp32_ble_tracker:
+  scan_parameters:
+    interval: 10ms
+    window: 10ms
+    active: false
+```
